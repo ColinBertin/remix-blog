@@ -75,6 +75,33 @@ async function seed() {
   - C'mon N' Ride it (Quad City DJ's)
       `.trim(),
     },
+    {
+      slug: "an-other-post",
+      title: "An Other Post",
+      markdown: `
+  # This is my second post
+  
+  Cool right?
+      `.trim(),
+    },
+    {
+      slug: "my-third-post",
+      title: "My Third Post",
+      markdown: `
+  # This is my third post
+  
+  I'm doing crazy things!
+      `.trim(),
+    },
+    {
+      slug: "hip-hop",
+      title: "Hip Hop",
+      markdown: `
+  # The greatest type of music
+  
+  Who is your favorite artist?
+      `.trim(),
+    },
   ];
   
   for (const post of posts) {
