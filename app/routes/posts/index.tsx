@@ -20,11 +20,11 @@ export const loader = async () => {
 }
 
 export default function Posts() {
-    const { posts } = useLoaderData() as LoaderData;
+    const { posts } = useLoaderData();
     console.log(posts)
 
     return (
-        <main>
+        <main className="mx-auto max-w-4xl">
             <h1>Posts</h1>
             <Link to="admin" className="text-red-600 underline">
                 Admin
